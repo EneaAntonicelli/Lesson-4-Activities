@@ -8,9 +8,9 @@
 
 <!-- CSS Styles (These styles are provided to you. Don't touch these!) -->
 <style>
-  body {
+  /* body {
     background: url(Assets/fridge.png) no-repeat;
-  }
+  } */
 
   .letter {
     width: 30px;
@@ -56,7 +56,7 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
 
       // Here we are provided an initial array of letters.
       // Use this array to dynamically create buttons on the screen.
@@ -67,6 +67,15 @@
       // =================================================================================
 
       // 1. Create a for-loop to iterate through the letters array.
+
+      for (i = 0; i < letters.length; i++) {
+        var letterBtn = $("<button>");
+      }
+      // do something with `substr[i]`
+
+
+     
+
 
       // Inside the loop...
 
