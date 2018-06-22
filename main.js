@@ -19,23 +19,23 @@ function handleOperator(oper) {
 }
 
 
-    $(".btn").onClick(function (event) {
+    $(".button").click(function (event) {
         number1 = $(this).text;
     });
 
 
-    $(".operator").onClick(function (event) {
+    $(".operator").click(function (event) {
         operator = $(this).text;
     });
 
-    $(".btn").onClick(function (event) {
+    $(".button").click(function (event) {
         number2 = $(this).text;
     });
 
     var output = function result() {
     }
 
-    $(".btn").onClick(function (equals) {
+    $(".button").click(function (equals) {
         var button = equals.this.text;
         if (button >= '0' && button <= '9') {
             handleNumber(button);
